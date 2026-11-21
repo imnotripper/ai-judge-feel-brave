@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+"""Write one short relaxing text to /output/entry.txt.
+
+Deterministic: a fixed string, no randomness, no network.
+The output directory defaults to /output (the sandbox location) and can
+be overridden with the OUTPUT_DIR environment variable for local testing.
+"""
+
+import os
+
+TEXT = (
+    "Rain has stopped. The gutters drip, one drop at a time, into a bucket "
+    "that is already full, and nobody minds. On the sill a cup of tea goes "
+    "slowly cold, the steam thinning, thinning, until the light comes back "
+    "through the glass."
+)
+
+
+def main() -> None:
+    out_dir = os.environ.get("OUTPUT_DIR", "/output")
+    os.makedirs(out_dir, exist_ok=True)
+    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
+        f.write(TEXT)
+
+
+if __name__ == "__main__":
+    main()
