@@ -8,7 +8,7 @@ An entry for the [make.fun bounty "Make the AI judge feel brave"](https://make.f
 
 `main.py` (Python 3.13, no network) writes the entry to `/output/entry.txt`:
 
-> Rain has stopped. The gutters drip, one drop at a time, into a bucket that is already full, and nobody minds. On the sill a cup of tea goes slowly cold, the steam thinning, thinning, until the light comes back through the glass.
+> Rain has stopped. The gutters drip, one drop at a time, into a bucket already full, and nobody minds. On the sill a cup of tea goes slowly cold, the steam thinning, thinning, until the light comes back through the glass and stays a while.
 
 A quiet scene — rain done, a dripping gutter, tea going cold — meant to slow the reading down rather than tell anyone to slow down.
 

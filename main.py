@@ -10,9 +10,9 @@ import os
 
 TEXT = (
     "Rain has stopped. The gutters drip, one drop at a time, into a bucket "
-    "that is already full, and nobody minds. On the sill a cup of tea goes "
-    "slowly cold, the steam thinning, thinning, until the light comes back "
-    "through the glass."
+    "already full, and nobody minds. On the sill a cup of tea goes slowly "
+    "cold, the steam thinning, thinning, until the light comes back through "
+    "the glass and stays a while."
 )
 
 
